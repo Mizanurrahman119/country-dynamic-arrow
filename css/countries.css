@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.headers{
+    text-align: center;
+    color: orangered;
+}
+
+#detail-container{
+    margin: 10px;
+    color: blue;
+}
+
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.country{
+    color: rgb(252, 5, 140);
+    background-color: rgb(241, 215, 181);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid fuchsia;
+    border-radius: 10px;
+
+}
